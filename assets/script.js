@@ -46,8 +46,7 @@
         '',
         '需求内容：',
         message
-      ].join('
-');
+      ].join('\n');
       const mailto = 'mailto:sunny@fukuichina.cn?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
       window.location.href = mailto;
     });
